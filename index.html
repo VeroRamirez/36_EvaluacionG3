@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es" >
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Evaluación G3</title>
+  </head>
+  <body >
+	<header>
+		<h1>Evaluación Aprendizaje Pseudocódigo y JS</h1>
+		<p>Recuerda que esta evaluación es para determinar el nivel de conocimiento que has adquirido en este Sprint acerca de Pseudocódigo, Lógica de Programación y JS, por lo tanto te pedimos que seas muy honesta al responder, de nada ayuda que copies a tus compañeras, más bien muéstranos y múestrate lo que en este tiempo has aprendido...</p>
+		<p>Las preguntas vendrán en todos los <b>H</b> y tú deberás responder según se te indique.</p>
+		<p>En el caso de los ejercicios hechos en JS deberás programarlos en el archivo <b>script.js</b> que está en esta misma carpeta y al abrir desde el navegador el archivo <b>index.html</b> podrás probar tu programa.</p>
+		<p><b>Mucho éxito!</b></p>
+	</header>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	<section id="datos">
+		<h3>Código (últimos 3 dígitos):</h3>
+		<p>432</p>
+
+		<h3>Nombre:</h3>
+		<p>Veronica Ramirez Perez</p>
+	</section>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	<section id="preguntas">
+		<h2>Subraya la respuesta correcta en las de opción múltiple y responde las preguntas abiertas</h2>
+
+		<h3>1) JavaScript es:</h3>
+			<h4>a) Una biblioteca para manipular el estilo de las páginas web</h4>
+			<h4>b) Un compilador</h4>
+			<ul><h4>c) Un lenguaje de Programación</h4></ul>
+			<h4>d) Un lenguaje para crear estilo</h4>
+
+		<h3>2) Que es una variable:</h3>
+			<h4>a) Un elemento que se emplea para guardar valores permanentes.</h4>
+			<h4>b) Un valor de tipo permanente, ya que no puede modificarse.</h4>
+			<u><h4>c) Es un elemento que se emplea para almacenar valores y hacer referencia a otro valor.</h4></u>
+
+		<h3>3) Menciona 2 características de las variables:</h3>
+			<p>Su valor puede cambiar dependiendo de la asignacion que se haga</p>
+			<p>Ocupan un lugar en la memoria</p>
+
+		<h3>4) Cual de los siguientes no es un tipo de dato:</h3>
+			<h4>a) String</h4>
+			<h4>b) Boolean</h4>
+			<h4><u>c) Abstract</u></h4>
+			<h4>d) Null</h4>
+			<h4>e) Undefined</h4>
+
+		<h3>5) Menciona las estucturas condicionales y menciona un ejemplo donde se utilice cada una:</h3>
+			<p>Son para tomar decisiones e indicar la direccion que debe tormar el programa. Las estructura es<br>
+			   if(condicion)<br>{<br>//codigo a realizar<br>}<br>else if(condicion2){<br>//codigo<br>}<br>else{<br>//codigo<br>}
+			 </p>
+			<p>Ejemplo: para comparar 2 numeros y saber cual es mayor<br>
+			   if(num1>num2)<br>{<br>console.log(num1+" es mayor");<br>}<br>else{<br>console.log(num2+" es mayor");<br>}</p>
+			</p>
+
+		<h3>6) Menciona las estucturas repetitivas y escribe la sintaxis de cada una:</h3>
+			<p>Sirven para hacer un mimo proceso varias veces y son: 
+                <ul>
+                <li>while: Mientras se cumpla la condicion repite el proceso encerrado en las llaves</li>
+                <li>do while: Hace el proceso una vez sin ninguna restriccion y las demas veces evalua la condicion del while</li>
+                <li>for: Hay una variable que controla el ciclo, se debe definir su valor inicial, una condicion y un incremento o decremento</li>
+                </ul>
+            </p>
+			<p>
+                <ul>
+                    <li>while(condicion)<br>{//codigo}</li>
+                    <li>do{//codigo <br>} while(condicion);</li>
+                    <li>for(valorInicial, condicion, incremento){//codigo}</li>
+                </ul>
+			</p>
+
+		<h3>7) Qué es un arreglo, cuál es su sintaxis y cómo puedes acceder a sus elementos?:</h3>
+			<p>Es un conjunto de valores independientes, pueden o no ser de mismo tipo pero se almacenan en un orden, ocupan una posicion determinada, siendo 0 la primera posicion.</p>
+			<p>Sintaxis: var miArreglo=[]; // este seria un arreglo vacio <br> 
+			    var myArray=[1,2,"hello"]//este seria un arreglo con elementos</p>
+			<p>Se puede acceder a sus elementos por la posicion que ocupa, el primer elemento es 0, por ejemplo en el caso de myArray el valor de cada elemento se encontraria asi: myArray[0] seria 1, myArray[1] seria 2 y muArray[2] ser[ia "hello"</p>
+
+		<h3>8) Qué son las funciones y cuál es su sintaxis de declaración y de llamada:</h3>
+			<p>Las funciones son bloques de codigo que pueden utilizarse de forma idependiente y son utiles cuando se quiere realizar un mismo proceso mas de una vez. Pueden recibir parametros y tambien pueden regresar algun valor</p>
+			<p>Hay 2 tipos de funciones, las tipo statement y las tipo expression. <br>
+			   <ul>
+			       <li><i>Statement:</i> Pueden ser declaradas al inicio o al final del script sin marcar error en caso de que sean ejecutadas antes de su declaracion.</li> function miFuncion(){//codigo}
+			       <li><i>Expression:</i> La funcion se asigna a una variable y solo puede ser invocada despues de ser creada.</li>miFun=function(){//codigo}
+			       <li><i>Anonimas:</i> Estas funciones no tienen nombre y se crean cuando solo se quieren usar una vez function(){//codigo}</li>
+			     </ul>
+			 </p>
+			<p>
+			    Se mandan llamar con la firma de la funcion, esto es <i> nombreFuncion(parametros);</i><br>en caso de regresar algun valor se debe guardad dicho valor en una variable <i> var resultado=nombreFuncion(parametros);</i>
+			</p>
+
+		<h3>9) Qué son los objetos, cuál es su sintaxis y cómo puedes acceder a sus propiedades?:</h3>
+			<p>Los objetos son abstracciones del mundo real, son de un tipo, tienen caracteristicas y metodos o funciones.</p>
+			<p>
+                <ul>
+			        <li><i>Creacion:</i> miObjeto={propiedad: valor, propiedad2: valor}</li>
+			        <li><i>Acceso a sus propiedades:</i>Puede accederse con puntos o corchetes. <br>Ejemplo: miObjeto[propiedad] es igual a miObjeto.propiedad</li>
+			        <li><i>Otros:</i>Tambien se puede crear el objeto vacio y posteriormente ir agregando propiedades.</li>
+			    </ul>
+			 </p>
+	</section>
+	<section>
+		<h2>Ejercicios</h2>
+
+		<h4>Ejercicio 1: <br>Haz el juego de piedra papel o tijera con 3 turnos</h4>
+		<h4>Ejercicio 2: <br>Declara un arreglo vacío denominado nombres. Pide al usuario tres nombres y almacena esos nombres como elementos arreglo. A continuación muestra el contenido en un mensaje.</h4>
+	</section>
+    <script src="ejercicio1.js"></script>
+  </body>
+</html>
